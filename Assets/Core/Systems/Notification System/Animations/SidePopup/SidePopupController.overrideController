@@ -7,13 +7,11 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SidePopupController
-  m_Controller: {fileID: 9100000, guid: 1e3143793b0d4fe45adeccdd4ac4ba6f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9badafe2b14a11141bf4da3298c2ee40, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 01b03594e5fd843449f8e1bfe7eca0c9, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 8a896c3bca7e8384ebfd769eb5614a4c, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 347001d57c0fb2b45a27506524832166, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 429209b9892335345ad5b38a2eb097f3, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: 5219e76410f3b8345ac2628f2e783b83, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 1a7905590f345144fb8506b1abc2898e, type: 2}
-  - m_OriginalClip: {fileID: 7400000, guid: fa9821ee0736aaf4b87117d2886195ab, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: ea806454c5e7b844a9eefac1e29d9f29, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1e12aa1f6d60c6244bf4450bfc06f188, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 085d86c74dd8371458ce8da98fdedf1a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f6183107bd0de4c42b96333773505235, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4ff9843c37aa56845a4c1a0806af667c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4b3e0a360f6fabd4283f0555d3fc296e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f53127dbc0c5abe40a37d6da63ce03c7, type: 2}

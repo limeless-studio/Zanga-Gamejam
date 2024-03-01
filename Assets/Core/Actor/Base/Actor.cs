@@ -21,14 +21,6 @@ namespace Core
             TakeDamage(damage, DamageCause.DamagedByOther);
         }
         
-        public virtual void ServerTakeDamage(float damage) {}
-        
-        
-        public virtual void TakeDamage(float damage, bool onlyIfOwned)
-        {
-            TakeDamage(damage, DamageCause.DamagedByOther);
-        }
-
         public virtual void TakeDamage(float damage, DamageCause cause)
         {
             Health = Mathf.Clamp(Health - damage, 0, maxHealth);

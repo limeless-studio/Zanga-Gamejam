@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25655b7e74094dad9554e5078a4a8782, type: 3}
+  m_Name: OF_Default_Set
+  m_EditorClassIdentifier: 
+  idleCurve: {fileID: 11400000, guid: 031fc91522b605e429120697ee32a111, type: 2}
+  walkCurve: {fileID: 11400000, guid: 0db8f48fabf4b554a819d554a9b6b6cf, type: 2}
+  runCurve: {fileID: 11400000, guid: d4db9220ceecfcd4fab13bfa31b1a646, type: 2}
+  aimCurve: {fileID: 11400000, guid: 83698abb46057454984ce392fa8b2280, type: 2}

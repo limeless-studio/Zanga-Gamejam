@@ -591,7 +591,7 @@ namespace CBG.FPSMeshTool {
                 }
             }
             // Create prefab
-            PrefabUtility.CreatePrefab(GetValidAssetName(GeneratePrefabFileName(previewInstance)), previewInstance, ReplacePrefabOptions.ConnectToPrefab);
+            PrefabUtility.SaveAsPrefabAssetAndConnect(previewInstance, GetValidAssetName(GeneratePrefabFileName(previewInstance)), InteractionMode.AutomatedAction);
             AssetDatabase.SaveAssets();
             EditorUtility.ClearProgressBar();
         }

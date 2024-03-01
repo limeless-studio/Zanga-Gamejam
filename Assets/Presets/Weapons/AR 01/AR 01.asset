@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857f1dc8456e4bc58e078d894577e9f7, type: 3}
+  m_Name: AR 01
+  m_EditorClassIdentifier: 
+  id: -1
+  itemName: AR 01
+  description: 
+  icon: {fileID: 21300000, guid: bcc477d9e47ffcf41acc147a6fc51cf9, type: 3}
+  isStackable: 0
+  maxStack: 1
+  canHaveInHand: 1
+  inHandPrefab: {fileID: -1878711447295362325, guid: eb32c6589c158c648a074629b1ecbc2c,
+    type: 3}
+  handsAnimatorController: {fileID: 22100000, guid: 89de5a22a60920f4d900352094d409a9,
+    type: 2}
+  bodyAnimatorController: {fileID: 22100000, guid: ec1dbd117e471424facef97202781df3,
+    type: 2}
+  weaponType: 1
+  subType: 1
+  isAutomatic: 1
+  autoReload: 0
+  damage: 10
+  force: 5000
+  fireRate: 0.1
+  reloadTime: 1
+  recoilData: {fileID: 11400000, guid: 188f1e823ce9c7748b9e5c392e60dbf1, type: 2}
+  reload: {fileID: 8300000, guid: 778c7be53403f9e45804f5a61a13a3e6, type: 3}
+  reloadEmpty: {fileID: 8300000, guid: 1fe5c2e1733f354428fe88c1a7cbafe4, type: 3}
+  casingPrefab: {fileID: 0}
+  trailPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 0}

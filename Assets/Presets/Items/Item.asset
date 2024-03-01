@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4efce1457adf4456ba87fb348dd3ad98, type: 3}
+  m_Name: Item
+  m_EditorClassIdentifier: 
+  id: 12
+  itemName: SAD
+  description: ASDASDSAASDSSD
+  icon: {fileID: 21300002, guid: 3079f7a597421144aa53c566cd89d864, type: 3}
+  isStackable: 1
+  maxStack: 30
+  canHaveInHand: 0
+  inHandPrefab: {fileID: 0}
+  handsAnimatorController: {fileID: 0}
+  bodyAnimatorController: {fileID: 0}

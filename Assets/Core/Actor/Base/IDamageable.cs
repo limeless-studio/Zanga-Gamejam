@@ -5,9 +5,8 @@ namespace Core
     public interface IDamageable
     {
         public void TakeDamage(float damage);
-        public void TakeDamage(float damage, bool onlyIfOwned);
+        public void TakeDamage(float damage, DamageCause cause);
         
-        public void ServerTakeDamage(float damage);
         
         public void Heal(float amount);
         
